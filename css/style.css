@@ -873,6 +873,9 @@ h2 span {
     width: 80vw;
     max-height: 580px;
   }
+  .work__portfolio .block:hover {
+    transform: translate(0);
+  }
   .work__portfolio .wrap.slick-center::after {
     display: none;
   }
