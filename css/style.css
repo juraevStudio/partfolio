@@ -871,6 +871,7 @@ h2 span {
   }
   .work__portfolio .block {
     width: 80vw;
+    max-height: 580px;
   }
   .work__portfolio .wrap.slick-center::after {
     display: none;
