@@ -829,6 +829,9 @@ h2 span {
     display: block;
   }
   .contact .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     padding-top: 70px;
     padding-bottom: 70px;
   }
@@ -874,6 +877,7 @@ h2 span {
     min-height: auto;
     font-size: 12px;
     line-height: 12px;
+    margin-top: auto;
   }
   .work__portfolio .slick-prev, .work__portfolio .slick-next {
     width: 44px;
